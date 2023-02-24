@@ -1,23 +1,7 @@
-.cardContainer{
-	margin-bottom: 20px;
-}
-.cardContainer:hover {
-	opacity: 0.3;
-}
-
-
-.img-trans{
-  transition: 2s ease;
-  opacity: 1;
-}
-
-.gallery{
-	padding-top: 50px;
-}
-
 h1{
 	font-family: 'Pacifico', cursive, 'Courier New', monospace;
 	color: #1d3557;
+	float:left;
 }
 
 body {
@@ -30,4 +14,54 @@ body {
 }
 .navMenu{
 	background-color: #f1faee;
+}
+
+.cardContainer{
+	margin-bottom: 20px;
+}
+.cardContainer:hover {
+	opacity: 0.3;
+}
+
+.img-trans{
+  transition: 2s ease;
+  opacity: 1;
+}
+
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.title-bar{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.btn-container{
+	text-align: right;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
 }

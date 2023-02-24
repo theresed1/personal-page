@@ -47,42 +47,57 @@
 
 
   </header>
-  
+
     
-    <div class="container gallery">
-<h1>
-      Therese Do
-    </h1>
+    <div class="container ">
+      <div class="row title-bar">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <h1>
+          Therese Do
+          </h1>
+        </div>
+
+
+        <div class="col-md-8 col-sm-12 col-xs-12 btn-container" id="myBtnContainer" >
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+          <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+          <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+          <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+        </div>
+      </div>
+
+
       <div class="row">
 
-        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer">
+        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer filterDiv Cars">
           <a href="#">
             <img src="images\home\sony-master-thesis.png" class="img-trans img-fluid" alt="Responsive image">
           </a>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer">
+        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer filterDiv colors fruits">
           <a href="#">
             <img src="images\home\arduino-wiring.PNG" class="img-fluid" alt="Responsive image">
           </a>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer">
+        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer filterDiv cars animals">
           <a href="#">
-            <img src="images\home\maxiv-render.jpg" class="img-fluid" alt="Responsive image">
+            <img src="images\home\maxiv-render.JPG" class="img-fluid" alt="Responsive image">
           </a>
         </div>
 
 
-              <div class="col-md-4 col-sm-6 col-xs-12 cardContainer">
+              <div class="col-md-4 col-sm-6 col-xs-12 cardContainer filterDiv animals">
           <a href="#">
             <img src="images\home\sony-master-thesis.png" class="img-fluid" alt="Responsive image">
           </a>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer">
+        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer filterDiv animals">
           <a href="#">
             <img src="images\home\sony-master-thesis.png" class="img-fluid" alt="Responsive image">
           </a>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer">
+        <div class="col-md-4 col-sm-6 col-xs-12 cardContainer filterDiv animals">
           <a href="#">
             <img src="images\home\sony-master-thesis.png" class="img-fluid" alt="Responsive image">
           </a>
@@ -91,7 +106,7 @@
 
       </div>
 
-    </div>
+
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
