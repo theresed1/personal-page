@@ -1,0 +1,33 @@
+.cardContainer{
+	margin-bottom: 20px;
+}
+.cardContainer:hover {
+	opacity: 0.3;
+}
+
+
+.img-trans{
+  transition: 2s ease;
+  opacity: 1;
+}
+
+.gallery{
+	padding-top: 50px;
+}
+
+h1{
+	font-family: 'Pacifico', cursive, 'Courier New', monospace;
+	color: #1d3557;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: 'Courier New', monospace;
+}
+
+.navbarStyling{
+	background-color: #ffffff;
+}
+.navMenu{
+	background-color: #f1faee;
+}
